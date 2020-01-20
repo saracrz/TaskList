@@ -1,0 +1,55 @@
+body{
+  background-color: rgb(244, 245, 247);
+  margin: auto;
+  max-width: 45em;
+ 
+}
+header {
+  padding: 2rem;
+  box-sizing: 0 2px 4px rgba(44, 62, 80,.15);
+  background: rgb(27, 71, 184);
+}
+header input {
+  color: #fff;
+  text-indent: 1.5rem;
+  padding: 0 60px 0 0;
+  background: rgba(247, 247, 250, 0.803);
+  border-radius: 5px 25px 25px 5px;
+  border: 0;
+  height:3rem;
+  width: 100%;
+
+}
+header button {
+  border-radius: 25px;
+  background: #fff;
+  border: 0;
+  height: 3rem;
+  width: 3rem;
+  cursor: pointer;
+  margin: -1rem;
+  float: right;
+}
+h2{
+  display: inline-block
+}
+.column {
+  display: inline-block;
+  width: 50%;
+  background-color: rgb(223, 221, 221);
+}
+.buttons{
+  float: right;
+  vertical-align: middle;
+}
+.todo{
+  color: rgb(69, 69, 69);
+  background-color: white;
+  border-radius: 3px;
+  box-shadow: 0 1px 2px rgb(89, 89, 89);
+  margin-bottom: 1rem;
+  padding: 1.5rem;
+  word-wrap: break-word;
+  list-style-type: none;
+
+}
